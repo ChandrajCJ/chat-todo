@@ -56,7 +56,7 @@ export function TodoInput() {
             type="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Add a new todo..."
+            placeholder="Message..."
             className="flex-1 px-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
           />
           <button
